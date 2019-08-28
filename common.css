@@ -1,0 +1,362 @@
+@charset "utf-8";
+
+body{
+
+	background: #e5ecf0;
+
+	text-align: center;
+
+}
+
+img{
+
+	display: block;
+
+}
+
+
+
+.header{
+
+	position: relative;
+
+	max-width: 1920px;
+
+	width:100%;
+
+	height:819px;
+
+	background: url("header.jpg"/*tpa=http://yzj.380882.com/index_files/header.jpg*/) no-repeat center top;
+
+}
+
+.header .codeBox{
+
+	position: absolute;
+
+	bottom:54px;
+
+	left:50%;
+
+	width:650px;
+
+	margin-left:-376px;
+
+}
+
+.header .codeBox img{
+
+	width:215px;
+
+	height:215px;
+
+	float: left;
+
+}
+
+.header .codeBox .text{
+
+	margin-top:117px;
+
+	display: inline-block;
+
+	width:378px;
+
+	font-size: 25px;
+
+	color: #f5040e;
+
+	line-height: 45px;
+
+	height:45px;
+
+	background: url("but.png"/*tpa=http://yzj.380882.com/index_files/but.png*/) no-repeat center;
+
+}
+
+.con_one{max-width: 1920px;width:100%;height: 947px;background: url("con1.jpg"/*tpa=http://yzj.380882.com/index_files/con1.jpg*/) no-repeat center top;}
+
+.con_two{max-width: 1920px;width:100%;height: 405px;background: url("con2.jpg"/*tpa=http://yzj.380882.com/index_files/con2.jpg*/) no-repeat center top;}
+
+.con_three{max-width: 1920px;width:100%;height: 709px;background: url("con3.jpg"/*tpa=http://yzj.380882.com/index_files/con3.jpg*/) no-repeat center top;}
+
+.con_fo{position: relative;max-width: 1920px;width:100%;height: 251px;background: url("con4.jpg"/*tpa=http://yzj.380882.com/index_files/con4.jpg*/) no-repeat center top;}
+
+.con_fo .codeBox{
+
+	position: absolute;
+
+	bottom:16px;
+
+	left:50%;
+
+	width:670px;
+
+	height:215px;
+
+	margin-left:-189px;
+
+}
+
+.con_fo .codeBox img{
+
+	width:190px;
+
+	height:190px;
+
+	float: left;
+
+	border:1px solid #000;
+
+	margin:10px 10px;
+
+}
+
+.con_fo .codeBox .text{
+
+	margin-top:110px;
+
+	display: inline-block;
+
+	width:378px;
+
+	height:80px;
+
+	font-size: 42px;
+
+	color: #ff2102;
+
+	margin-left:45px;
+
+}
+
+.footerBar{
+
+	width:100%;
+
+	background: #383838;
+
+	font-size: 15px;
+
+	color: #fff;
+
+	padding:20px 0;
+
+}
+
+.footerBar ul li{
+
+	line-height: 25px;
+
+}
+
+.footer_text .txt{
+
+	font-size: 18px;
+
+	line-height: 30px;
+
+}
+
+/* 侧边 */
+
+.sideBar{
+
+	width: 344px;
+
+	height: 554px;
+
+	background: url("pop.png"/*tpa=http://yzj.380882.com/index_files/pop.png*/) no-repeat center;
+
+	position: fixed;
+
+	top:200px;
+
+	right: 0px;
+
+}
+
+.sideBar img{
+
+	width: 190px;
+
+	height: 190px;
+
+	margin:117px 70px;
+
+	border:1px solid #000;
+
+}
+
+.sideBar .close{
+
+	display: block;
+
+	position: absolute;
+
+	top:0px;
+
+	right:0px;
+
+	width:50px;
+
+	height: 50px;	
+
+}
+
+/* 按钮动画 */
+
+@-webkit-keyframes shake {  
+
+  
+
+    0%, 100% {-webkit-transform: translateX(0);}  
+
+    10%, 20%, 30%,40%{-webkit-transform: translateX(-10px);}  
+
+    15%, 25%,35%,45% {-webkit-transform: translateX(10px);}
+
+	45%, 100% {-webkit-transform: translateX(-10px);} 
+
+	}  
+
+@-moz-keyframes shake {  
+
+     0%, 100% {-webkit-transform: translateX(0);}  
+
+    10%, 20%, 30%,40%{-webkit-transform: translateX(-10px);}  
+
+    15%, 25%,35%,45% {-webkit-transform: translateX(10px);}
+
+	45%, 100% {-webkit-transform: translateX(-10px);} 
+
+}  
+
+
+
+.draw_but{
+
+	 width:56%;
+
+  text-align: center;
+
+  animation: egg_two 0.6s linear infinite alternate;
+
+  -ms-animation: egg_two 0.6s linear infinite alternate;
+
+  -moz-animation: egg_two 0.6s linear infinite alternate;
+
+  -webkit-animation: egg_two 0.6s linear infinite alternate;
+
+  -o-animation: egg_two 0.6s linear infinite alternate;
+
+ 
+
+}
+
+
+
+@keyframes egg_two {
+
+  from {
+
+    transform: scale(1, 1);
+
+  }
+
+  to {
+
+    transform: scale(1.2, 1.2);
+
+  }
+
+}
+
+@-ms-keyframes egg_two {
+
+  from {
+
+    -ms-transform: scale(1, 1);
+
+  }
+
+  to {
+
+    -ms-transform: scale(1.2, 1.2);
+
+  }
+
+}
+
+@-moz-keyframes egg_two {
+
+  from {
+
+    -moz-transform: scale(1, 1);
+
+  }
+
+  to {
+
+    -moz-transform: scale(1.2, 1.2);
+
+  }
+
+}
+
+@-webkit-keyframes egg_two {
+
+  from {
+
+    -webkit-transform: scale(1, 1);
+
+  }
+
+  to {
+
+    -webkit-transform: scale(1.2, 1.2);
+
+  }
+
+}
+
+@-o-keyframes egg_two {
+
+  from {
+
+    -o-transform: scale(1, 1);
+
+  }
+
+  to {
+
+    -o-transform: scale(1.2, 1.2);
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
